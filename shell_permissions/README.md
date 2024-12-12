@@ -21,8 +21,11 @@ This script modifies the permissions of the file `hello` by:
 - Adding execute permission to the owner and the group owner.
 - Adding read permission to others.
 
-### Usage:
-Run the script as follows:
-```bash
-./6-multiple_permissions
+## Task 5: John Doe
 
+This script sets the mode of the file `hello` to:
+
+### Explanation:
+- The **owner** has `rwx` (read, write, execute) permissions.
+- The **group owner** has `r-x` (read, execute) permissions.
+- **Others** have `-wx` (write, execute) permissions
